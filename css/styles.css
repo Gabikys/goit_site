@@ -1,0 +1,15 @@
+body{
+    background-color: #ffffff;
+    color: 
+}
+.logo-web{
+    color: #4D5AE5;
+}
+
+.logo-studio{
+    color: var(--generl-link);
+}
+
+.list {
+    list-style: none;
+}

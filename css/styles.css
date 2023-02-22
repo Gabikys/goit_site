@@ -1,15 +1,30 @@
+/* колір основний шрифт*/
+/* color:#434455 */
+
+/* колір залоловку */
+/* color: #2E2F42 */
+
+/* основний колір заднього фону */
+/* color: #2E2F42 */
+
+/* колір nav задій фон */
+/* color: #FFFFFF */
+
+/* колір що ми робимо задній фон */
+/* color: #E5E5E5 */
+
+:root {
+    --general-dgc: #2E2F42;
+    --general-color: #434455;
+    --nav-bgc: #FFFFFF;
+}
+
+
 body{
-    background-color: #ffffff;
-    color: 
-}
-.logo-web{
-    color: #4D5AE5;
+    background-color: var(--general-dgc);
+    color: var(--general-color);
 }
 
-.logo-studio{
-    color: var(--generl-link);
-}
-
-.list {
-    list-style: none;
+.nav {
+    background-color: var(--nav-bgc);
 }

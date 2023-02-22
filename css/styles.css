@@ -24,11 +24,13 @@
     --light-cloud: #F4F4FD;
     --model-overlay-navy-blue-modal: rgba(46, 47, 66, 0.4);
     --hero-beckground-grey: gba(46, 47, 66, 0.7);
+    --bgc-white: #FFFFFF;
+    --primery-bgc: #E5E5E5;
 }
 
 
 body{
-    background-color: var(--dark-navy-blue);
+    background-color: var(--bgc-white);
     color: var(--text-slate);
 }
 
@@ -37,17 +39,26 @@ body{
 }
 
 .nav{
-    background-color: var(--accent-cornfloweer);
+    background-color: var(--bgc-white);
 }
+
 
 .logo-web{
 color: var(--primery-brend-iris);
+}
+.logo-web:hover,
+.logo-web:active{
+    color: var(--pressed-state-ocean);
 }
 
 .logo-studio{
     color: var(--dark-navy-blue);
 }
 
+.logo-studio:hover,
+.logo-studio:active{
+    color: var(--pressed-state-ocean);
+}
 
 .nav-list a{
     color: var(--dark-navy-blue);
@@ -60,5 +71,51 @@ color: var(--primery-brend-iris);
 
 .nav-adress a:hover,
 .nav-adress a:active{
+    color: var(--pressed-state-ocean);
+}
+
+.hero-title{
+    color: var(--bgc-white);
+}
+
+.button{
+    color: var(--bgc-white);
+    background-color: var(--primery-brend-iris);
+}
+
+.section{
+    padding: 0;
+    margin: 0;
+}
+.section-navy-blue{
+    background-color: var(--dark-navy-blue);
+}
+
+.section-grey{
+    background-color: var(--light-cloud);
+}
+
+.title{
+    color: var(--dark-navy-blue);
+}
+
+.footer a{
+color: var(--primery-brend-iris);
+}
+
+.footer span{
+    color: var(--light-cloud);
+}
+
+.footer p{
+    color: var(--accent-cornfloweer);
+}
+
+.footer a:hover,
+.footer a:active{
+    color: var(--pressed-state-ocean);
+}
+.footer span:hover,
+.footer span:active{
     color: var(--pressed-state-ocean);
 }

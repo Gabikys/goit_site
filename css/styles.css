@@ -14,17 +14,51 @@
 /* color: #E5E5E5 */
 
 :root {
-    --general-dgc: #2E2F42;
-    --general-color: #434455;
-    --nav-bgc: #FFFFFF;
+    --primery-brend-iris: #4D5AE5;
+    --pressed-state-ocean: #404BBF;
+    --dark-navy-blue: #2E2F42;
+    --success-green: #31D0AA;
+    --text-slate: #434455;
+    --subtle-text-light-slate: #8E8F99;
+    --accent-cornfloweer: #E7E9FC;
+    --light-cloud: #F4F4FD;
+    --model-overlay-navy-blue-modal: rgba(46, 47, 66, 0.4);
+    --hero-beckground-grey: gba(46, 47, 66, 0.7);
 }
 
 
 body{
-    background-color: var(--general-dgc);
-    color: var(--general-color);
+    background-color: var(--dark-navy-blue);
+    color: var(--text-slate);
 }
 
-.nav {
-    background-color: var(--nav-bgc);
+.list{
+    list-style: none;
+}
+
+.nav{
+    background-color: var(--accent-cornfloweer);
+}
+
+.logo-web{
+color: var(--primery-brend-iris);
+}
+
+.logo-studio{
+    color: var(--dark-navy-blue);
+}
+
+
+.nav-list a{
+    color: var(--dark-navy-blue);
+}
+
+.nav-list a:hover,
+.nav-list a:active {
+    color: var(--pressed-state-ocean);
+}
+
+.nav-adress a:hover,
+.nav-adress a:active{
+    color: var(--pressed-state-ocean);
 }

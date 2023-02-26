@@ -47,7 +47,7 @@ body{
 color: var(--primery-brend-iris);
 }
 .logo-web:hover,
-.logo-web:active{
+.logo-web:focus{
     color: var(--pressed-state-ocean);
 }
 
@@ -56,21 +56,22 @@ color: var(--primery-brend-iris);
 }
 
 .logo-studio:hover,
-.logo-studio:active{
+.logo-studio:focus{
     color: var(--pressed-state-ocean);
 }
 
-.nav-list a{
+.nav-list .link,
+.nav-adress .link{
     color: var(--dark-navy-blue);
 }
 
-.nav-list a:hover,
-.nav-list a:active {
+.nav-list .link:hover,
+.nav-list .link:focus {
     color: var(--pressed-state-ocean);
 }
 
-.nav-adress a:hover,
-.nav-adress a:active{
+.nav-adress .link:hover,
+.nav-adress .link:focus{
     color: var(--pressed-state-ocean);
 }
 
@@ -81,6 +82,11 @@ color: var(--primery-brend-iris);
 .button{
     color: var(--bgc-white);
     background-color: var(--primery-brend-iris);
+}
+
+.button:hover,
+.button:focus{
+background-color: var(--pressed-state-ocean);
 }
 
 .section{

@@ -88,13 +88,13 @@ color: var(--primery-brend-iris);
     color: var(--bgc-white);
 }
 
-.button{
+.button-hero{
     color: var(--bgc-white);
     background-color: var(--primery-brend-iris);
 }
 
-.button:hover,
-.button:focus{
+.button-hero:hover,
+.button-hero:focus{
 background-color: var(--pressed-state-ocean);
 }
 
@@ -140,13 +140,13 @@ color: var(--primery-brend-iris);
 /* portfolio */
 /* product filter */
 
-.filter-btn{
+.button{
     background-color: var(--light-cloud);
     color: var(--primery-brend-iris);
 }
 
-.filter-btn:hover,
-.filter-btn:focus{
+.button:hover,
+.button:focus{
     background-color: var(--pressed-state-ocean);
     color: var(--bgc-white);
 }

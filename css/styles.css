@@ -70,10 +70,15 @@ color: var(--primery-brend-iris);
     color: var(--pressed-state-ocean);
 }
 
+.nav-list .link.currrent {
+    color: var(--pressed-state-ocean);
+}
+
 .nav-adress .link:hover,
 .nav-adress .link:focus{
     color: var(--pressed-state-ocean);
 }
+
 
 .hero-title{
     color: var(--bgc-white);
@@ -105,7 +110,9 @@ background-color: var(--pressed-state-ocean);
     color: var(--dark-navy-blue);
 }
 
-.footer a{
+/* footer */
+
+.footer link{
 color: var(--primery-brend-iris);
 }
 
@@ -113,15 +120,31 @@ color: var(--primery-brend-iris);
     color: var(--light-cloud);
 }
 
-.footer p{
+.footer .footer-p{
     color: var(--accent-cornfloweer);
 }
 
-.footer a:hover,
-.footer a:active{
+.footer link:hover,
+.footer link:active{
     color: var(--pressed-state-ocean);
 }
 .footer span:hover,
 .footer span:active{
     color: var(--pressed-state-ocean);
 }
+
+/* portfolio */
+/* product filter */
+
+.filter-btn{
+    background-color: var(--light-cloud);
+    color: var(--primery-brend-iris);
+}
+
+.filter-btn:hover,
+.filter-btn:focus{
+    background-color: var(--pressed-state-ocean);
+    color: var(--bgc-white);
+}
+
+

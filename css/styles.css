@@ -38,6 +38,9 @@ body{
     list-style: none;
 }
 
+.link{
+    text-decoration: none;
+}
 .nav{
     background-color: var(--bgc-white);
 }
@@ -45,6 +48,7 @@ body{
 
 .logo-web{
 color: var(--primery-brend-iris);
+
 }
 .logo-web:hover,
 .logo-web:focus{
@@ -148,9 +152,11 @@ color: var(--primery-brend-iris);
 }
 
 .products-h2{
-    color: var(--dark-navy-blue)
+    color: var(--dark-navy-blue);
+    text-decoration: none;
 }
 
 .products-h3{
-    color: var(--text-slate)
+    color: var(--text-slate);
+    text-decoration: none;
 }

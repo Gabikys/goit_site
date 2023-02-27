@@ -147,4 +147,10 @@ color: var(--primery-brend-iris);
     color: var(--bgc-white);
 }
 
+.products-h2{
+    color: var(--dark-navy-blue)
+}
 
+.products-h3{
+    color: var(--text-slate)
+}

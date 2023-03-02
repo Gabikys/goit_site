@@ -49,6 +49,10 @@ Bold - це 700*/
 
 body {
     font-family: 'Roboto', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     background-color: var(--bgc-white);
     color: var(--text-slate);
 }
@@ -95,8 +99,16 @@ body {
     color: var(--pressed-state-ocean);
 }
 
+.nav-adress{
+    font-style: normal;
+}
+
 .nav-list .link,
 .nav-adress .link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
     color: var(--dark-navy-blue);
 }
 
@@ -111,14 +123,22 @@ body {
 
 .nav-adress .link:hover,
 .nav-adress .link:focus {
-    color: var(--pressed-state-ocean);
+        color: var(--pressed-state-ocean);
 }
 
 .hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--bgc-white);
 }
 
 .button-hero {
+    font-family: inherit;
+    font-weight: 500;
+    letter-spacing: 0.04em;
     color: var(--bgc-white);
     background-color: var(--primery-brend-iris);
 }
@@ -140,11 +160,19 @@ body {
 .section-grey {
     background-color: var(--light-cloud);
 }
-
+.section>.title{
+    ont-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+}
 .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     color: var(--dark-navy-blue);
 }
-
 
 /* footer */
 
@@ -179,6 +207,12 @@ body {
 .button {
     background-color: var(--light-cloud);
     color: var(--primery-brend-iris);
+}
+
+.button.link{
+font-family: inherit;
+letter-spacing: 0.04em;
+text-transform: capitalize;
 }
 
 .button:hover,

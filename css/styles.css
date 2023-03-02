@@ -1,16 +1,35 @@
 /* колір основний шрифт*/
+
+
 /* color:#434455 */
 
+
 /* колір залоловку */
+
+
 /* color: #2E2F42 */
+
 
 /* основний колір заднього фону */
+
+
 /* color: #2E2F42 */
 
+
 /* колір nav задій фон */
+
+
 /* color: #FFFFFF */
 
+
 /* колір що ми робимо задній фон */
+
+
+/* normal - це 400
+medium - 500
+Bold - це 700*/
+
+
 /* color: #E5E5E5 */
 
 :root {
@@ -28,44 +47,56 @@
     --primery-bgc: #E5E5E5;
 }
 
-
-body{
+body {
+    font-family: 'Roboto', serif;
     background-color: var(--bgc-white);
     color: var(--text-slate);
 }
 
-.list{
+.logo {
+    font-family: 'Raleway', serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--primery-brend-iris);
+    /* align-items: center; */
+}
+
+.list {
     list-style: none;
 }
 
-.link{
+.link {
     text-decoration: none;
 }
-.nav{
+
+.nav {
     background-color: var(--bgc-white);
 }
 
 
-.logo-web{
-color: var(--primery-brend-iris);
+/* .logo-web {
+    color: var(--primery-brend-iris);
+} */
 
-}
-.logo-web:hover,
-.logo-web:focus{
+.logo:hover,
+.logo:focus {
     color: var(--pressed-state-ocean);
 }
 
-.logo-studio{
+.logo-studio {
     color: var(--dark-navy-blue);
 }
 
 .logo-studio:hover,
-.logo-studio:focus{
+.logo-studio:focus {
     color: var(--pressed-state-ocean);
 }
 
 .nav-list .link,
-.nav-adress .link{
+.nav-adress .link {
     color: var(--dark-navy-blue);
 }
 
@@ -79,85 +110,89 @@ color: var(--primery-brend-iris);
 }
 
 .nav-adress .link:hover,
-.nav-adress .link:focus{
+.nav-adress .link:focus {
     color: var(--pressed-state-ocean);
 }
 
-
-.hero-title{
+.hero-title {
     color: var(--bgc-white);
 }
 
-.button-hero{
+.button-hero {
     color: var(--bgc-white);
     background-color: var(--primery-brend-iris);
 }
 
 .button-hero:hover,
-.button-hero:focus{
-background-color: var(--pressed-state-ocean);
+.button-hero:focus {
+    background-color: var(--pressed-state-ocean);
 }
 
-.section{
+.section {
     padding: 0;
     margin: 0;
 }
-.section-navy-blue{
+
+.section-navy-blue {
     background-color: var(--dark-navy-blue);
 }
 
-.section-grey{
+.section-grey {
     background-color: var(--light-cloud);
 }
 
-.title{
+.title {
     color: var(--dark-navy-blue);
 }
 
+
 /* footer */
 
-.footer link{
-color: var(--primery-brend-iris);
+.footer .link {
+    color: var(--primery-brend-iris);
 }
 
-.footer span{
+.footer span {
     color: var(--light-cloud);
 }
 
-.footer .footer-p{
+.footer-p {
     color: var(--accent-cornfloweer);
 }
 
-.footer link:hover,
-.footer link:active{
+.footer .link:hover,
+.footer .link:active {
     color: var(--pressed-state-ocean);
 }
+
 .footer span:hover,
-.footer span:active{
+.footer span:active {
     color: var(--pressed-state-ocean);
 }
+
 
 /* portfolio */
+
+
 /* product filter */
 
-.button{
+.button {
     background-color: var(--light-cloud);
     color: var(--primery-brend-iris);
 }
 
 .button:hover,
-.button:focus{
+.button:focus {
     background-color: var(--pressed-state-ocean);
     color: var(--bgc-white);
 }
 
-.products-h2{
+.products-h2 {
     color: var(--dark-navy-blue);
     text-decoration: none;
 }
 
-.products-h3{
+.products-h3 {
     color: var(--text-slate);
     text-decoration: none;
 }
-

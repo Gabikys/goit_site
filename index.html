@@ -9,55 +9,61 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6/0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
-    <header>
-        <nav class="nav">
-            <a href="./index.html" target="_blank" rel="noopener noreferrer nofollow" class="link logo">
-                Web
-                <span class="logo-studio link">studio</span>
-            </a>
-            <ul class="nav-list list">
-                <li><a class="link currrent" href="./index.html">Studio</a></li>
-                <li><a class="link" href="./Portfolio.html">Portfolio</a></li>
-                <li><a class="link" href="">Contacts</a></li>
-            </ul>
-            <address>
-            <ul class="nav-adress list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
-        </nav>
+    <header class="page-header">
+        <div class="conteiner">
+            <nav class="nav">
+                <a href="./index.html" target="_blank" rel="noopener noreferrer nofollow" class="link logo">
+                    Web
+                    <span class="logo-studio link">studio</span>
+                </a>
+                <ul class="nav-list list">
+                    <li><a class="link currrent" href="./index.html">Studio</a></li>
+                    <li><a class="link" href="./Portfolio.html">Portfolio</a></li>
+                    <li><a class="link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+                <address>
+                <ul class="nav-adress list">
+                    <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+         </div>
     </header>
     <main>
         <section class="hero section-navy-blue">
-            <h1 class="hero-title">Effective Solutions for Your Business</h1>
+            <h1 class="hero-title">Effective Solutions <br>for Your Business</h1>
             <button class="button-hero" type="button">Order Service</button>
         </section>
-        <section class="section">
+        <div class="conteiner">
+            <section class="section">
             <h2 hidden>Description of our work</h2>
             <ul class="list">
                 <li>
                     <h3 class="title">Strategy</h3>
-                    <p>Our goal is to identify the business problem to walk away with the perfect and creative solution</p>
+                    <p class="title-p">Our goal is to identify the business problem to walk away with the perfect and creative solution</p>
                 </li>
                 <li>
                     <h3 class="title">Punctuality</h3>
-                    <p>Bring the key message to the brand's audience for the best price within the shortest possible time</p>
+                    <p class="title-p">Bring the key message to the brand's audience for the best price within the shortest possible time</p>
                 </li>
                 <li>
                     <h3 class="title">Diligence</h3>
-                    <p>Research and confirm brands that present the strongest digital growth opportunities and minimize risk</p>
+                    <p class="title-p">Research and confirm brands that present the strongest digital growth opportunities and minimize risk</p>
                 </li>
                 <li>
                     <h3 class="title">Technologies</h3>
-                    <p>Design practice focused on digital experiences. We bring forth a deep passion for problem-solving</p>
+                    <p class="title-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving</p>
                 </li>
             </ul>
         </section>
+        </div>
+       <div class="conteiner">
         <section class="section">
             <h3 class="title">what are we doing</h3>
             <ul class="list">
@@ -66,36 +72,42 @@
                 <li><img src="./images/Rectangle-73.jpg" alt="new photo" width="360"></li>
             </ul>
         </section>
-        <section class="section section-grey">
-            <h2 class="title">our team</h2>
+       </div>
+       <section class="section section-grey">
+       <div class="conteiner section-grey">
+            <h2 class="title section-title">our team</h2>
             <ul class="list">
                 <li>
                     <img src="./images/img_uno.jpg" alt="new photo" width="264">
                     <h3 class="title">Mark Guerrero</h3>
-                    <p> Product Designer</p>
+                    <p class="title-p"> Product Designer</p>
                 </li>
                 <li>
                     <img src="./images/img-2.jpg" alt="new photo" width="264">
                     <h3 class="title">Tom Ford</h3>
-                    <p>Frontend Developer</p>
+                    <p class="title-p">Frontend Developer</p>
                 </li>
                 <li>
                     <img src="./images/img-1.jpg" alt="new photo" width="264">
                     <h3 class="title">Camila Garcia</h3>
-                    <p>Marketing</p>
+                    <p class="title-p">Marketing</p>
                 </li>
                 <li>
                     <img src="./images/img.jpg" alt="new photo" width="264">
                     <h3 class="title">Daniel Wilson</h3>
-                    <p>UI Designer</p>
+                    <p class="title-p">UI Designer</p>
                 </li>
             </ul>
 
+        </div>
         </section>
     </main>
-    <footer class="section-navy-blue footer">
-        <a class="logo-web link logo" href="./index.html">Web<span>studio</span></a>
-        <p class="footer-p">Increase the flow of customers and sales for your business with digital marketing & growth solutions</p>
+
+    <footer class="footer section-navy-blue">
+        <div class="conteiner">
+            <a class="logo-web link logo" href="./index.html">Web<span>studio</span></a>
+            <p class="footer-p">Increase the flow of customers and sales for your business with digital marketing & growth solutions</p>
+        </div>
     </footer>
 </body>
 

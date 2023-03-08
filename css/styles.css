@@ -97,7 +97,7 @@ body {
 
 .list {
     list-style: none;
-    padding: 0;
+    /* padding: 0; */
     margin: 0;
 }
 
@@ -151,16 +151,16 @@ body {
 }
 
 
-.nav-list .link:not(nth-last-child){
-margin-right: 40px;
+.nav-list .item + .item{
+    margin-left: 40px;
 }
 
 .nav-list .link,
 .nav-adress .link {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--dark-navy-blue);
 }
 
@@ -181,9 +181,10 @@ letter-spacing: 0.02em;
 display: flex;
 }
 
-.nav-adress .link:not(nth-last-child){
-margin-right: 40px;
+.nav-adress .item + .item{
+margin-left: 40px;
 }
+
 .nav-adress .link:hover,
 .nav-adress .link:focus {
         color: var(--pressed-state-ocean);
@@ -230,14 +231,39 @@ margin-bottom: 120px;
     cursor: pointer;
 }
 
-/* -------секції-------- */
+/* ----------------------------------------------секції-------- */
 
 .list-flex{
     display: flex;
+    /* background-color: green; */
 }
 
-.list-flex li{
-    
+.item-doing{
+    width: calc((100%-60px)/4);
+}
+
+.item-doing:not(:nth-child(4n)){
+    margin-right: 24px;
+}
+
+.work-list-flex{
+    display: flex;
+}
+
+.item-img:not(:nth-child(3)){
+    margin-right: 24px;
+}
+
+.team-list{
+    display: flex;
+}
+
+.item-team{
+    text-align: center;
+}
+
+.item-team:not(:nth-child(4n)){
+margin-right: 24px;
 }
 
 .section {
@@ -274,7 +300,7 @@ margin-bottom: 120px;
     color: var(--dark-navy-blue);
 }
 
-/* footer */
+/*------------------------------------------------footer */
 .footer{
     padding: 100px 0;
 }
@@ -302,10 +328,10 @@ margin-bottom: 120px;
 }
 
 
-/* portfolio */
+/* -------------------------------------portfolio */
 
 
-/* product filter */
+/* --------------------------------------product filter */
 
 .filter-list.list{
     text-align: center;

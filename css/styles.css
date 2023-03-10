@@ -73,12 +73,12 @@ body {
 }
 
 .header-flax{
-
+    border-bottom: 1px solid #E7E9FC;
     display:flex;
     align-items: center;
 }
 .conteiner{
-    width: 1230px;
+    width: 1128px;
     margin: 0 auto;
     padding: 0;
     /* outline: 1px solid tomato; */
@@ -97,9 +97,9 @@ body {
 
 .list {
     list-style: none;
-    /* padding: 0; */
+    padding: 0;
     margin: 0;
-}
+    }
 
 .list h3{
     margin-top: 0;
@@ -170,7 +170,12 @@ body {
 }
 
 .nav-list .link.currrent {
+    padding-bottom: 27px;
+    border-radius: 2px;
     color: var(--pressed-state-ocean);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: var(--pressed-state-ocean);
 }
 
 .address{
@@ -239,7 +244,7 @@ margin-bottom: 120px;
 }
 
 .item-doing{
-    width: calc((100%-60px)/4);
+    width: calc((100%-72px)/4);
 }
 
 .item-doing:not(:nth-child(4n)){
@@ -300,6 +305,15 @@ margin-right: 24px;
     color: var(--dark-navy-blue);
 }
 
+.item-team{
+    background-color: var(--bgc-white);
+}
+
+.item-text{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
 /*------------------------------------------------footer */
 .footer{
     padding: 100px 0;
@@ -314,6 +328,7 @@ margin-right: 24px;
 }
 
 .footer-p {
+    width: 264px;
     color: var(--accent-cornfloweer);
 }
 
@@ -332,23 +347,42 @@ margin-right: 24px;
 
 
 /* --------------------------------------product filter */
-
-.filter-list.list{
-    text-align: center;
+.filter{
+    padding-top: 72px;
+    padding-bottom: 120px;
 }
 
-.button {
+.filter-list{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .filter-list.list{
+    text-align: center;
+} */
+
+.button-f {
     background-color: var(--light-cloud);
     color: var(--primery-brend-iris);
 }
 
-.button.link{
+.button{
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     font-family: inherit;
     letter-spacing: 0.04em;
     text-transform: capitalize;
+}
+
+.filter-list{
+    /* margin-top: 96px; */
+    margin-bottom: 72px;
+}
+
+.filter-list .link + .link {
+    margin-left: 24px;
 }
 
 .button:hover,
@@ -359,7 +393,10 @@ margin-right: 24px;
 }
 
 .products-list{
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .products-list>li{

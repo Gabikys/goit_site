@@ -81,7 +81,7 @@ body {
     width: 1128px;
     margin: 0 auto;
     padding: 0;
-    /* outline: 1px solid tomato; */
+
 }
 
 .logo {
@@ -144,6 +144,8 @@ body {
     font-style: normal;
 }
 
+
+
 .nav-list{
     display: flex;
     margin-top: 24px;
@@ -195,12 +197,44 @@ margin-left: 40px;
         color: var(--pressed-state-ocean);
 }
 
+.link-flax{
+    display: flex;
+    align-items: center;
+}
+
+.nav-adress .link::before{
+    display: block;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.mail::before{
+    background-image: url(../images/email.png);
+}
+
+.tel::before{
+    background-image: url(../images/telephone.png);
+}
 
 .hero{
-text-align: center;
-padding-top: 188px;
-padding-bottom: 188px;
-margin-bottom: 120px;
+    text-align: center;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 120px;
+
+    background-color: var(--dark-navy-blue);
+    background-image: linear-gradient(to right, 
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)
+        ), 
+        url(../images/people-office-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;     
 }
 
 .hero-title {
@@ -212,6 +246,7 @@ margin-bottom: 120px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--bgc-white);
+
 }
 
 .button-hero {
@@ -243,6 +278,41 @@ margin-bottom: 120px;
     /* background-color: green; */
 }
 
+.item-doing::before{
+    content: "";
+    display: block;
+    /* width: 64px; */
+    height: 112px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    /* padding-top: 124px;
+    padding-bottom: 24px; */
+    background-color: #F4F4FD;
+    border-radius: 4px;
+
+}
+
+.item-doing:nth-child(1)::before{
+    background-image: url(../images/radar.svg);
+}
+
+.item-doing:nth-child(2)::before{
+    background-image: url(../images/clock.svg);
+}
+
+.item-doing:nth-child(3)::before{
+    background-image: url(../images/diagram.svg);
+}
+
+.item-doing:nth-child(4)::before{
+    background-image: url(../images/astronaut.svg);
+}
+
+.item-doing .title{
+    margin-top: 8px;
+}
+
 .item-doing{
     width: calc((100%-72px)/4);
 }
@@ -265,12 +335,60 @@ margin-bottom: 120px;
 
 .item-team{
     text-align: center;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 
 .item-team:not(:nth-child(4n)){
 margin-right: 24px;
 }
 
+/* ------------ social icon */
+
+.list-social{
+    display: flex;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-bottom: 32px;
+    margin-left: 16px;
+    gap: 24px;
+
+}
+
+.social::before{
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: var(--primery-brend-iris); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    border-radius: 50% 50%;
+    
+}
+
+.social:hover::before{
+    background-color: var(--success-green); 
+}
+
+.inst::before{
+    background-image: url(../images/social/instagram.svg);
+}
+
+.twiter::before{
+    background-image: url(../images/social/twiter.svg);
+}
+
+.fb::before{
+    background-image: url(../images/social/fb.svg);
+}
+
+.linkedin::before{
+    background-image: url(../images/social/linkedin.svg);
+}
+
+/* ------------ */
 .section {
     padding-top: 0;
     padding-bottom: 120px;
@@ -278,8 +396,7 @@ margin-right: 24px;
 }
 
 
-.footer.section-navy-blue, 
-.section-navy-blue {
+.footer.section-navy-blue {
     background-color: var(--dark-navy-blue);
 }
 
@@ -342,6 +459,25 @@ margin-right: 24px;
     color: var(--pressed-state-ocean);
 }
 
+
+.footer .conteiner{
+    display: flex;
+
+}
+.fotter-social{
+margin-left: 120px;
+}
+
+.list-social.social-padding{
+    margin-left: 0;
+}
+
+.fotter-social .footer-p{
+    margin-top: 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
 
 /* -------------------------------------portfolio */
 

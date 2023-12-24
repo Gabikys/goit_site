@@ -372,7 +372,7 @@ margin-right: 24px;
     background-color: var(--success-green); 
 }
 
-.inst::before{
+/* .inst::before{
     background-image: url(../images/social/instagram.svg);
 }
 
@@ -386,7 +386,7 @@ margin-right: 24px;
 
 .linkedin::before{
     background-image: url(../images/social/linkedin.svg);
-}
+} */
 
 /* ------------ */
 .section {
@@ -568,4 +568,28 @@ a.link{
 
 /* .itam{
     background-color: #246d0c;
+
 } */
+
+
+
+
+
+
+
+
+/* _________під час стрім навчання */
+
+.background {
+width: 900px;
+height: 400px;
+margin: 0 auto;
+padding: 20px;
+border: 10px dashed rgba(255, 0, 0, 0.5);
+color: red;
+background-color: rgba(0, 0, 0, 0.5);
+background-image: url(https://picsum.photos/id/237/200/300);
+background-repeat: no-repeat;
+/* background-position: right 10px bottom 10px; */
+background-size: cover;
+}

@@ -395,22 +395,6 @@ margin-right: 24px;
     background-color: var(--success-green); 
 } */
 
-/* .inst::before{
-    background-image: url(../images/social/instagram.svg);
-}
-
-.twiter::before{
-    background-image: url(../images/social/twiter.svg);
-}
-
-.fb::before{
-    background-image: url(../images/social/fb.svg);
-}
-
-.linkedin::before{
-    background-image: url(../images/social/linkedin.svg);
-} */
-
 /* ------------ */
 .section {
     padding-top: 0;
@@ -500,6 +484,10 @@ margin-left: 120px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+}
+
+.fotter-social .social-list{
+    justify-content: flex-start;
 }
 
 /* -------------------------------------portfolio */

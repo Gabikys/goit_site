@@ -345,7 +345,30 @@ margin-right: 24px;
 
 /* ------------ social icon */
 
-.list-social{
+.social-list-item{
+    list-style: none;
+}
+
+.social-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    gap: 24px;
+}
+
+.social-list-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--primery-brend-iris); 
+
+}
+
+
+/* .list-social{
     display: flex;
     margin-top: 8px;
     margin-right: 16px;
@@ -370,7 +393,7 @@ margin-right: 24px;
 
 .social:hover::before{
     background-color: var(--success-green); 
-}
+} */
 
 /* .inst::before{
     background-image: url(../images/social/instagram.svg);

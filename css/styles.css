@@ -389,11 +389,12 @@ margin-right: 24px;
     background-size: 50%;
     border-radius: 50% 50%;
     
-}
+}*/
 
-.social:hover::before{
+.social-footer:hover,
+.social-footer:focus{
     background-color: var(--success-green); 
-} */
+} 
 
 /* ------------ */
 .section {

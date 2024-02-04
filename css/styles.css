@@ -564,9 +564,34 @@ margin-left: 120px;
 }
 
 .model-close-dtn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.model-close-dtn:hover {
+    background-color: var(--pressed-state-ocean);
 
 }
 
+.model-close-btm-icon{
+    width: 8px;
+    height: 8px;
+}
+
+.model-close-dtn:hover .model-close-btm-icon {
+    fill: var(--light-cloud);
+}
 
 /* ====================================== /model drop==================== */
 

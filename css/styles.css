@@ -539,6 +539,14 @@ margin-left: 120px;
 .fotter-social .social-list{
     justify-content: flex-start;
 }
+/* ====================================== /fotter==================== */
+
+/* ====================================== model drop==================== */
+
+
+
+
+/* ====================================== /model drop==================== */
 
 /* -------------------------------------portfolio */
 
@@ -666,12 +674,13 @@ a.link{
     transform: translatey(100%);
     transition: 250ms ease-in-out;
     background-color: var(--primery-brend-iris);
-    
+
 }
 
 .itam:hover .products-list--hover-text{
     transform: translatey(0);
 }
+
 
 
 

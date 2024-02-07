@@ -174,13 +174,15 @@ body {
     color: var(--pressed-state-ocean);
 }
 
-.nav-list .link.currrent {
-    padding-bottom: 27px;
+.nav-list .link.currrent::after {
+    content: "";
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    height: 4px;
     border-radius: 2px;
     color: var(--pressed-state-ocean);
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: var(--pressed-state-ocean);
 }
 
 .address{

@@ -758,7 +758,7 @@ a.link{
    background-color:rgba(27, 119, 211, 0.08);
    cursor: pointer;
    transition: background-color 500ms liner;
-   /* overflow: hidden; */
+   overflow: hidden;
 }
 
 .btm_pagas::after, .btm_pagas::before{
@@ -776,14 +776,14 @@ a.link{
     top: 50%;
     left: 8px;
     transform: translateY(-50%);
-   
+    background: url(../images/SVG/hipster.svg) center/cover no-repeat;
 }
 
 .btm_pagas::before{
     top: 50%;
     left: 8px;
     transform: translateY(22px);
-   
+    background: url(../images/SVG/evil.svg) center/cover no-repeat;
 }
 
 .btm_pagas:hover{

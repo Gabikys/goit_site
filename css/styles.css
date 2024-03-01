@@ -612,6 +612,28 @@ opacity: 0;
 visibility: hidden;
 pointer-events: none;
 }
+
+/* ==================================== ФОРМА в молалі=================== */
+
+.form_modal{
+    margin-top: 72px;
+}
+
+.form_modal_totle{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form_modal_label{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+
+
+/* ==================================== /ФОРМА в молалі=================== */
+
 /* ====================================== /model drop==================== */
 
 /* -------------------------------------portfolio */
@@ -754,16 +776,97 @@ a.link{
 
 /* _________під час стрім навчання */
 
-.background {
-width: 900px;
-height: 400px;
-margin: 0 auto;
-padding: 20px;
-border: 10px dashed rgba(255, 0, 0, 0.5);
-color: red;
-background-color: rgba(0, 0, 0, 0.5);
-background-image: url(https://picsum.photos/id/237/200/300);
-background-repeat: no-repeat;
-/* background-position: right 10px bottom 10px; */
-background-size: cover;
-}
+.btm_pagas{
+    position: relative;
+    top: 350px;
+    left: 150px; 
+    padding: 10px 30px;
+    margin: 0;  
+    background-color:rgba(27, 119, 211, 0.08);
+    cursor: pointer;
+    transition: background-color 500ms liner;
+    overflow: hidden;
+ }
+ 
+ .btm_pagas::after, .btm_pagas::before{
+     position: absolute;
+     content: "";
+     display: block;
+     width: 15px;
+     height: 15px;
+     border: 3px rgba(211, 101, 27, 0.08) solod;
+     background-color: rgb(211, 101, 27);
+     transition: transform 250ms liner;
+ }
+ 
+ .btm_pagas::after{
+     top: 50%;
+     left: 8px;
+     transform: translateY(-50%);
+     background: url(../images/SVG/hipster.svg) center/cover no-repeat;
+ }
+ 
+ .btm_pagas::before{
+     top: 50%;
+     left: 8px;
+     transform: translateY(22px);
+     background: url(../images/SVG/evil.svg) center/cover no-repeat;
+ }
+ 
+ .btm_pagas:hover{
+     background-color: rgb(161, 220, 93);
+ }
+ 
+ .btm_pagas:hover::after{
+     transform: translateY(-35px);
+ }
+ 
+ .btm_pagas:hover::before{
+     transform: translateY(-50%);
+ }
+ 
+ /* =========== форма================= */
+ 
+ .contact-form
+ {
+     width: 500px;
+     min-height: 200 px;
+     padding: 40px;
+     margin: 0 auto;
+     box-shadow: 0 10px 10px 0 #434455;
+ }
+ 
+ .contact-form-input
+ {
+     width: 100%;
+     height: 40px;
+     margin-bottom: 20px;
+     padding-left: 20px;
+     border: 1px solid #2E2F42;
+ }
+ 
+ .contact-form-btm-wrapper
+ {
+     display: flex;
+     justify-content: center;
+     column-gap: 10px;
+ }
+ 
+ .contact-form-btm
+ {
+     font-size: 18px;
+     padding: 10px 20px;
+     border-radius: 5px;
+     border: 1px solid #434455;
+     cursor: pointer;
+     color:#2f0505;
+     background-color: transparent;
+     transition: color 250ms linear, background-color 250ms linear; 
+ }
+ 
+ .contact-form-btm:hover
+ {
+ color:rgb(252, 252, 252);
+ background-color:rgb(2, 22, 41);
+ }
+ /* =========== /форма================= */

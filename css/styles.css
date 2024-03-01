@@ -571,6 +571,8 @@ margin-left: 120px;
     background-color: rgb(252, 252, 252);
     transform: translate(-50%, -50%);
     transition: transform 400ms linear;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .backdrop.is-hidden .model {
@@ -613,7 +615,7 @@ visibility: hidden;
 pointer-events: none;
 }
 
-/* ==================================== ФОРМА в молалі=================== */
+/* ==================================== ФОРМА в модалі=================== */
 
 .form_modal{
     margin-top: 72px;
@@ -630,7 +632,9 @@ pointer-events: none;
     margin-bottom: 8px;
 }
 
-
+.form_input{
+padding: 11px 16px;
+}
 
 /* ==================================== /ФОРМА в молалі=================== */
 

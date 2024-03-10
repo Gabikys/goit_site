@@ -622,8 +622,7 @@ pointer-events: none;
 }
 
 .form_modal_totle{
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 .form_modal_label{

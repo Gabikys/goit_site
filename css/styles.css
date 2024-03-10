@@ -633,6 +633,7 @@ pointer-events: none;
 
 .form_input{
 padding: 11px 16px;
+border-radius: 1px;
 }
 
 /* ==================================== /ФОРМА в молалі=================== */

@@ -358,7 +358,13 @@
                 <label class="form_modal_label">
                     <span>Phone</span>
                     <div class="imgsvg">
-                        <input type="tel" class="orm_modal_tel form_input" name="user_tel">
+                        <input 
+                        type="tel" 
+                        class="orm_modal_tel form_input" 
+                        name="user_tel"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                        title="xxx-xxx-xx-xx"
+                        >
                         <svg class="form_modal_svg">
                             <use href="./images/social/sprite.svg#icon-phone-black-18dp-1"></use>
                         </svg>
@@ -375,7 +381,11 @@
                 </label>
                 <label class="form_modal_label">
                     <span>Comment</span>
-                    <input type="texteria" class="orm_modal_text" name="user_text" placeholder="Text input">
+                    <texteria 
+                        class="orm_modal_text" 
+                        name="user_text" 
+                        placeholder="Text input">
+                        </texteria>
                 </label>
             </form>
         </div>

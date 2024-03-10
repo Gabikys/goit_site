@@ -343,7 +343,13 @@
                 <label class="form_modal_label">
                     <span>Name</span>
                     <div class="imgsvg">
-                        <input type="text" class="orm_modal_name form_input" name="user_name" >
+                        <input 
+                        type="text" 
+                        class="orm_modal_name form_input" 
+                        name="user_name"
+                        pattern="^[a-zA-Zя-яА-Я]+$"
+                        minlength="2" 
+                        >
                         <svg class="form_modal_svg">
                             <use href="./images/social/sprite.svg#icon-person-black-18dp-1"></use>
                         </svg>

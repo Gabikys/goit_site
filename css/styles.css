@@ -629,6 +629,7 @@ pointer-events: none;
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
+    color: var(--subtle-text-light-slate);
 }
 
 
@@ -637,12 +638,22 @@ pointer-events: none;
 padding: 11px 38px;
 border-radius: 4px;
 width: 100%;
+border: 1px solid var(--subtle-text-light-slate);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
+
+
+.form_input:is(:hover, :focus){
+border-color: var(--primery-brend-iris);
+}
+
 
 .form_input::after{
     content: "";
 
 }
+
+
 
 .imgsvg{
     position: relative;

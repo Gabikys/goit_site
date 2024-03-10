@@ -640,7 +640,7 @@ border-radius: 4px;
 }
 
 .form_input::after{
-    contant: "";
+    content: "";
 
 }
 

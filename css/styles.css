@@ -626,14 +626,36 @@ pointer-events: none;
 }
 
 .form_modal_label{
+    position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
 }
 
+
+
 .form_input{
-padding: 11px 16px;
-border-radius: 1px;
+padding: 11px 38px;
+border-radius: 4px;
+}
+
+.form_input::after{
+    contant: "";
+
+}
+
+.imgsvg{
+    position: relative;
+}
+
+.form_modal_svg{
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    color: var(--dark-navy-blue);
+    width: 18px;
+    height: 18px;
+    transform: translateY(-50%);
 }
 
 /* ==================================== /ФОРМА в молалі=================== */

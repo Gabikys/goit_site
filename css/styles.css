@@ -626,7 +626,6 @@ pointer-events: none;
 }
 
 .form_modal_label{
-    position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
@@ -637,6 +636,7 @@ pointer-events: none;
 .form_input{
 padding: 11px 38px;
 border-radius: 4px;
+width: 100%;
 }
 
 .form_input::after{

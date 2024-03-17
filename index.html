@@ -373,7 +373,10 @@
                 <label class="form_modal_label">
                     <span>Email</span>
                     <span class="imgsvg">
-                        <input type="email" class="form_modal_email form_input" name="user_email">
+                        <input type="email" 
+                        class="form_modal_email form_input" 
+                        name="user_email"
+                        pattern=".+@beststartupever\.com">
                         <svg class="form_modal_svg">
                             <use href="./images/social/sprite.svg#icon-email-black-18dp-1"></use>
                         </svg>
@@ -386,6 +389,13 @@
                         name="user_text"
                         placeholder="Text input"></textarea>
                 </label>
+                <div class="div_form_checkbox">
+                    <label class="form_checkbox">
+                        <input type="checkbox">
+                        <span class="form_checkbox_span">I accept the terms and conditions of the <a href="#">Privacy Policy</a></span>
+                    </label>
+                    <button class="form_modal_btm" type="submit">Send</button>
+                </div>
             </form>
         </div>
     </div>

@@ -546,6 +546,23 @@ margin-left: 120px;
 .fotter-social .social-list{
     justify-content: flex-start;
 }
+
+
+/* ===================================== підниска в footer ==========*/
+
+.form_footer_p{
+    margin-top: 0;
+    color: var(--accent-cornfloweer);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.form_footer_label_email{
+    background-color: inherit;
+}
+
+
+/* ===================================== /підниска в footer ==========*/
 /* ====================================== /fotter==================== */
 
 /* ====================================== model drop==================== */

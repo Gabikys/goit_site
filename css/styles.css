@@ -675,10 +675,12 @@ outline: none;
     height: 18px;
     transform: translateY(-50%);
 }
-/* 
-.form_modal_texteria{
+
+.form_modal_texteria.form_input{
     padding: 8px 16px;
-} */
+    resize: none;
+    height: 120px;
+}
 /* ==================================== /ФОРМА в молалі=================== */
 
 /* ====================================== /model drop==================== */

@@ -557,6 +557,10 @@ margin-left: 120px;
     font-size: 16px;
     line-height: 1.2;
 }
+.form_footer{
+/* position: relative; */
+/* display: flex; */
+}
 
 .form_footer_label_email{
     width:  264px;
@@ -569,6 +573,10 @@ margin-left: 120px;
 
 .form_modal_btm.form_footer_label_btm{
     margin: 0;
+    padding-left: 26px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
     width:  165px;
     height: 40px;
     border-color: var(--pressed-state-ocean);
@@ -585,7 +593,7 @@ margin-left: 120px;
 .form_footer_svg{
     position: absolute;
     top: 50%;
-    left: 16px;
+    right: 24px;
     color: var(--dark-navy-blue);
     width: 24px;
     height: 24px;

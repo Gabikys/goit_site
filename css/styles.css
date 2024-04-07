@@ -568,6 +568,7 @@ margin-left: 120px;
     background-color: inherit;
     border-color: var(--accent-cornfloweer);
     margin-right: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
 }
 
